@@ -1,6 +1,4 @@
 import { Directive, ElementRef, HostListener, Input, OnChanges, OnInit, Renderer2, SimpleChanges } from '@angular/core';
-import { AbstractControl, FormControl, NgModel } from '@angular/forms';
-import { interval } from 'rxjs';
 
 @Directive({
   selector: '[gsFormItem]',
